@@ -12,8 +12,7 @@ var screen = tamanoVentanaNavegador();
 var centerY = screen[1]/2;
 var centerX = screen[0]/2;
 
-addEventListener('click',()=>{
-   
+addEventListener('click',(event)=>{
     //Coordenadas respecto a la Navegador
     var scX = event.screenX;
     var scY = event.screenY;
@@ -35,5 +34,5 @@ addEventListener('click',()=>{
         
     }
 
-    console.log("("+scX+","+scY+") =>(" + centerX + "," + centerY + ")");
+    //console.log("("+scX+","+scY+") =>(" + centerX + "," + centerY + ")");
 })

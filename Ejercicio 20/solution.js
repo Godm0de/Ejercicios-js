@@ -40,7 +40,7 @@ document.addEventListener('click',()=>{
         
     }
 
-    console.log("("+scX+","+scY+") =>(" + centerX + "," + centerY + ")");
+    //console.log("("+scX+","+scY+") =>(" + centerX + "," + centerY + ")");
 })
 
 document.addEventListener('keypress', ()=>{
